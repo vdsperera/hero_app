@@ -7,12 +7,11 @@ import { Hero } from '../hero';
   styleUrls: ['./hero-detail.component.css']
 })
 
-//@Input() hero: Hero;
-
 export class HeroDetailComponent implements OnInit {
-
+  @Input() hero: Hero;
+  
   constructor() { }
-
+ 
   ngOnInit() {
   }
 
